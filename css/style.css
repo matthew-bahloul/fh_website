@@ -468,7 +468,7 @@ a:hover {
 }
 
 .navbar-brand {
-  font-family: 'Press Start 2P', cursive;
+  
 }
 
 .navbar-b.navbar-trans .nav-link:before {
@@ -636,17 +636,17 @@ a:hover {
 }
 
 .intro .intro-title {
-  color: #05EAFA;
+  color: RGB(70, 251, 144);
   font-weight: 600;
   font-size: 3rem;
-  font-family: "Comic Sans MS"
+  font-family: "Faster One", cursive;
 }
 
 .intro .intro-subtitle {
-  color: #05EAFA;
+  color: RGB(70, 251, 144);
   font-size: 1.5rem;
   font-weight: 300;
-  font-family: "Comic Sans MS"
+  font-family: "Consolas"
 }
 
 .intro .text-slider-items {
