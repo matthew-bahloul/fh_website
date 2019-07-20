@@ -14,6 +14,11 @@ body {
   color: #4e4e4e;
 }
 
+.cust-icon {
+  width: 10 px;
+}
+
+
 h1,
 h2,
 h3,
@@ -100,7 +105,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  opacity: .9;
 }
 
 .paralax-mf {
@@ -152,10 +157,12 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  font-family: "Consolas";
 }
 
 .subtitle-a {
   color: #05EAFA;
+  font-family: "Consolas";
 }
 
 .line-mf {
@@ -327,7 +334,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #582A72;
+  background: #FA056F;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -458,6 +465,10 @@ a:hover {
 .navbar-b.navbar-reduce .nav-link.show:before,
 .navbar-b.navbar-reduce .nav-link.active:before {
   width: 35px;
+}
+
+.navbar-brand {
+  font-family: 'Press Start 2P', cursive;
 }
 
 .navbar-b.navbar-trans .nav-link:before {
@@ -628,13 +639,14 @@ a:hover {
   color: #05EAFA;
   font-weight: 600;
   font-size: 3rem;
-  font-family: 
+  font-family: "Comic Sans MS"
 }
 
 .intro .intro-subtitle {
   color: #05EAFA;
   font-size: 1.5rem;
   font-weight: 300;
+  font-family: "Comic Sans MS"
 }
 
 .intro .text-slider-items {
@@ -737,6 +749,7 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
+  font-family: "Consolas"
 }
 
 .service-box .s-description {
@@ -794,7 +807,8 @@ a:hover {
 }
 
 .work-content {
-  padding: 2rem 3% 1rem 4%;
+  padding: 1rem 2% 1rem 3%;
+  text-align: center;
 }
 
 .work-content .w-more {
