@@ -1,4 +1,4 @@
-$(function() {
+jQuery(document).ready(function($) {
 
 	// Get the form.
 	var form = $('#ajax-contact');
