@@ -97,7 +97,8 @@
       <div class="table-cell">
         <div class="container">
           <h1 class="intro-title mb-4">Future Holotape</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Dreaming of Connections, Out August 5th, waiting for the milk to dry, I'm not alive</span><strong class="text-slider"></strong></p>
+          <p class="intro-subtitle"><span class="text-slider-items">Dreaming of Connections, Out August 5th, waiting for
+              the milk to dry, I'm not alive</span><strong class="text-slider"></strong></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -177,7 +178,7 @@
           </div>
         </div>
       </div>
-    
+
       <div class="row">
         <div class="col-md-4">
           <div class="work-box">
@@ -191,17 +192,17 @@
                     <h2 class="w-title">Outset</h2>
                   </div>
                 </div>
-              </a>
-            </div>
+            </a>
           </div>
         </div>
       </div>
-      <a class="subtitle-a" href="https://futureholotape.bandcamp.com/music">View the rest on Bandcamp</a>
+    </div>
+    <a class="subtitle-a" href="https://futureholotape.bandcamp.com/music">View the rest on Bandcamp</a>
     </div>
     <br>
     <br>
     <br>
-    </section>
+  </section>
   <!--/ Section Music End /-->
 
 
@@ -254,7 +255,7 @@
           </div>
         </div>
       </div> -->
-    </div>
+  </div>
   </div>
 
 
@@ -295,8 +296,8 @@
         </div>
 
 
-          <div class="col-md-4">
-            <a href="https://futureholotape.bandcamp.com/merch/limited-edition-cassette-2">
+        <div class="col-md-4">
+          <a href="https://futureholotape.bandcamp.com/merch/limited-edition-cassette-2">
             <div class="service-box">
               <!-- <div class="service-ico">
                 <span class="ico-circle"><i class="ion-ios-recording"></i></span>
@@ -305,11 +306,11 @@
                 <h2 class="s-title">Cassettes</h2>
               </div>
             </div>
-            </a>
-          </div>
+          </a>
+        </div>
 
-          <div class="col-md-4">
-            <a href="https://futureholotape.bandcamp.com/merch/enamel-pin">
+        <div class="col-md-4">
+          <a href="https://futureholotape.bandcamp.com/merch/enamel-pin">
             <div class="service-box">
               <!-- <div class="service-ico">
                 <span class="ico-circle"><i class="ion-android-navigate"></i></span>
@@ -318,8 +319,8 @@
                 <h2 class="s-title">Enamel Pins</h2>
               </div>
             </div>
-            </a>
-          </div>
+          </a>
+        </div>
       </div>
 
       <div class="row">
@@ -349,16 +350,16 @@
           </a>
         </div>
       </div>
-      
+
       <a class="subtitle-a" href="https://futureholotape.bandcamp.com/merch">View the rest on Bandcamp</a>
-      
+
     </div>
     <br>
-      <br>
-      <br>
+    <br>
+    <br>
   </section>
   <!--/ Section Services End /-->
-  
+
   <div class="section-counter paralax-mf bg-image" style="background-image: url(img/doc.jpg)">
     <div class="overlay-mf"></div>
     <div class="container">
@@ -408,7 +409,7 @@
           </div>
         </div>
       </div> -->
-      </div>
+    </div>
   </div>
 
   <!--/ Section Videos Star /-->
@@ -435,17 +436,19 @@
               <div class="work-box">
                 <div class="work-img" style="height:30rem">
                   <!-- <img src="img/work-1.jpg" alt="" class="img-fluid"> -->
-                  <iframe class="video" style="width:100%; height:100%;" src="https://www.youtube.com/embed/AQmEaj_KbbQ">
+                  <iframe class="video" style="width:100%; height:100%;"
+                    src="https://www.youtube.com/embed/AQmEaj_KbbQ">
                   </iframe>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <a class="subtitle-a" href="https://www.youtube.com/channel/UC6KWiE1-NXRcYhq6QDbkOOg">View the rest on YouTube</a>
+        <a class="subtitle-a" href="https://www.youtube.com/channel/UC6KWiE1-NXRcYhq6QDbkOOg">View the rest on
+          YouTube</a>
       </div>
-      </div>
-      </section>
+    </div>
+  </section>
   <!--/ Section Videos End /-->
 
 
@@ -468,74 +471,40 @@
                   <div>
 
                     <!-- https://blog.teamtreehouse.com/create-ajax-contact-form -->
-                    <form id="ajax-contact" method="post" action="mailer.php">
+                    <!-- https://themehunt.com/blog/53-tutorial/162-how-to-create-an-ajax-contact-form-without-any-plugin -->
+                      <form action="/mailer.php">
+                      
+                      <!--name-->
                       <div class="field">
-                        <label for="name"></label>
-                        <input class="form-control" type="text" id="name" name="name" placeholder="Your Name" required>
+                          <label for="fname"></label>
+                          <input class="form-control" type="text" id="fname" name="name" placeholder="Your name">
+                      </div>
+                      
+                      <!--email-->
+                      <div class="field">
+                          <label for="email"></label>
+                          <input class="form-control" type="email" id="email" name="email" placeholder="Your email">
                       </div>
 
+                      <!--message-->
                       <div class="field">
-                        <label for="email"></label>
-                        <input class="form-control" type="email" id="email" name="email" placeholder="Your Email"
-                          required>
+                              <label for="message"></label>
+                              <textarea class="form-control" id="message" name="message" placeholder="Message"></textarea>
                       </div>
-
-                      <div class="field">
-                        <label for="message"></label>
-                        <textarea class="form-control" id="message" name="message" placeholder="Message"
-                          required></textarea>
-                      </div>
+                      
                       <br>
 
-                      <div class="field">
-                        <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                      </div>
-                    </form>
+                      <!--button-->
+                      <input class="button button-a button-big button-rouded" type="submit" name="submit" value="Submit">
+                    
 
                     <div id="form-messages">
 
                     </div>
-                    <!--https://blog.teamtreehouse.com/create-ajax-contact-form-->
-
-                    <!-- <form action="mailer.php" method="" role="form" class="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                              data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                              data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                              data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required"
-                              data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                        </div>
-                      </div>
-                    </form> -->
                   </div>
                 </div>
+
+                <!-- Right Column Info-->
                 <div class="col-md-6">
                   <div class="title-box-2 pt-4 pt-md-0">
                     <h5 class="title-left">
@@ -615,7 +584,9 @@
   <script src="lib/jquery/jquery-migrate.min.js"></script>
 
   <script src="lib/jquery/jquery-migrate.min.js"></script>
+  
   <!--jquery for custom contact form-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
   <script src="lib/popper/popper.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
